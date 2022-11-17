@@ -8,8 +8,8 @@
     /*font size, fonts and weights*/
    
     --fontsize: 0.875rem;
-    --font-1: "Montserrat", sans-sarif;
-    --font-2: "Fraunces", sans-sarif;
+    --font-1: "Montserrat", sans-serif;
+    --font-2: "Fraunces", sans-serif;
     --weight-1: 500;
     --weight-2: 700;
 }
@@ -125,6 +125,13 @@ body{
 .purchase-link:focus{
     background: hsl(158, 71%, 13%);
     transition: 1s;
+}
+
+.my-signature{
+    text-align: center;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+    color: var(--primary-dark-cyan);
 }
 
 @media (min-width: 480px){
